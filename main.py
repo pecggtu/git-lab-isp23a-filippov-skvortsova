@@ -17,3 +17,8 @@ def subtract(a, b):
 
 def multiply(a, b):
     return a * b
+
+def modulo(a, b):
+    if b == 0:
+        raise ZeroDivisionError("Делитель не должен быть нулём")
+    return a % b
